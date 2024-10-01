@@ -1,0 +1,37 @@
+nav {
+    background-color: #343a40; /* Cor de fundo escura */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0; /* Remove espaçamento padrão */
+    margin: 0; /* Remove margem padrão */
+    display: flex; /* Exibe os itens na horizontal */
+    justify-content: space-around; /* Espaçamento igual entre os itens */
+}
+
+nav li {
+    display: inline; /* Exibe os itens inline */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 10px 15px; /* Espaçamento interno nos links */
+    border-radius: 5px; /* Bordas arredondadas nos links */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+    background-color: #495057; /* Cor de fundo ao passar o mouse */
+    color: #ffc107; /* Muda a cor do texto ao passar o mouse */
+}
+
+nav a.active {
+    background-color: #007BFF; /* Cor de fundo para a página ativa */
+    color: white; /* Cor do texto para a página ativa */
+}
