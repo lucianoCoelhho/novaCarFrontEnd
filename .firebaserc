@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "majinbooveiculos-81828"
+=======
+    "default": "majinbooveiculos"
+>>>>>>> 7f9e9a280064ed87da5d2d87499c5a187ca8407d
   }
 }
