@@ -1,0 +1,9 @@
+.youtube-video {
+    max-width: 100%;          /* Deixa o vídeo ocupar até 90% da largura da tela */
+    height: 540px;            /* Ajusta a altura automaticamente */
+    border: 2px solid #007bff; /* Adiciona uma borda ao redor do vídeo */
+    border-radius: 10px;       /* Deixa os cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    margin: 20px auto;         /* Centraliza o vídeo na página */
+    display: block;            /* Garante que o iframe se comporte como um bloco */
+}

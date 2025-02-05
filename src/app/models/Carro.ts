@@ -8,6 +8,9 @@ export class Carro{
     cor:string = '';
     categoria:string = '';
     descricaoDetalhada:string = '';
-    valorAluguel:number = 0;
+    valorCarro:number = 0;
     imagemUrl: string = ''; 
+    potenciaMotor: string = '';
+    quilometragem:number = 0;
+
 }
